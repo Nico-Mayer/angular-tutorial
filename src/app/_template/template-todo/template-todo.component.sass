@@ -1,0 +1,80 @@
+@import '../../../sass/_var'
+
+.todo
+  width: 100%
+  background-color: $white
+  margin: 0 0 $cube 0
+  display: flex
+  flex-flow: row
+  justify-content: space-between
+  align-items: stretch
+  height: 100%
+  .todo-content
+    width: 100%
+    display: flex
+    flex-flow: row
+    justify-content: flex-start
+    align-items: center
+    .handel
+      background-color: $prime
+      height: 100%
+      display: flex
+      flex-flow: row
+      padding: 0 $cube*0.01 0 $cube*0.01
+      justify-content: center
+      align-items: center
+      cursor: grab
+      img
+        width: $cube*5
+        height: $cube*5
+    .todo-content-check
+      display: flex
+      margin: $cube*2
+      flex-flow: row
+      justify-content: center
+      align-items: center
+      cursor: pointer
+      img
+        width: $cube*3.5
+        height: $cube*3.5
+    .todo-content-titel
+      width: 100%
+      input
+        font-family: $font2
+        font-size: $cube * 2
+        padding: $cube * 2
+        color: $prime
+        width: 100%
+        background-color: $white
+        border: none
+        word-break: break-word
+      input::placeholder
+        opacity: 0.5
+        font-style: italic
+        color: $prime
+      input:focus
+        outline: none
+
+  .delete
+    color: $white
+    font-family: $font2
+    font-size: $cube * 2
+    padding: $cube*2
+    cursor: pointer
+    border-left: solid $cube * 0.1 $BackGround
+    background-color: $red
+    span
+      height: 100%
+      width: 100%
+      display: flex
+      flex-flow: row
+      justify-content: center
+      align-items: center
+
+.todo.done
+  .todo-content
+    .handel
+      display: none
+    .todo-content-titel
+      opacity: 0.2
+      text-decoration: line-through

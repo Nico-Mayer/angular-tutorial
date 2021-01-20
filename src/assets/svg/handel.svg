@@ -1,0 +1,11 @@
+<svg id="DragHandel" xmlns="http://www.w3.org/2000/svg" width="30" height="70" viewBox="0 0 30 70">
+  <rect id="Rectangle_7" data-name="Rectangle 7" width="30" height="70" fill="#322e2f"/>
+  <g id="Drag_Handel" data-name="Drag Handel" transform="translate(7 22)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="3.5" cy="3.5" r="3.5" fill="#e2d810"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="3.5" cy="3.5" r="3.5" transform="translate(9)" fill="#e2d810"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="3.5" cy="3.5" r="3.5" transform="translate(0 10)" fill="#e2d810"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="3.5" cy="3.5" r="3.5" transform="translate(9 10)" fill="#e2d810"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="3.5" cy="3.5" r="3.5" transform="translate(0 20)" fill="#e2d810"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="3.5" cy="3.5" r="3.5" transform="translate(9 20)" fill="#e2d810"/>
+  </g>
+</svg>
