@@ -11,7 +11,7 @@
       <input (blur)="changeLabel($event)" type="text" [(ngModel)]="toDo$.label" placeholder="Name des To-Do Punktes">
     </div>
   </div>
-  <div class="delete">
+  <div class="delete" (click)= "deleteToDo($event)">
     <span>Löschen</span>
   </div>
 </div>

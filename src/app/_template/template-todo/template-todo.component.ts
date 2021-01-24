@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Todo } from '../../_interface/todo';
+import { ToDo } from '../../_interface/todo';
 
 @Component({
   selector: 'app-template-todo',
@@ -8,7 +8,7 @@ import { Todo } from '../../_interface/todo';
 })
 export class TemplateTodoComponent implements OnInit {
 
-  public toDo$: Todo;
+  public toDo$: ToDo;
 
   constructor() { 
     this.toDo$ = {
@@ -29,6 +29,10 @@ export class TemplateTodoComponent implements OnInit {
 
   public changeLabel(event?: any): void{
     console.log(this.toDo$.label)
+  }
+
+  public deleteToDo(event?: any): void{
+    console.log(this.toDo$.id);
   }
 
 }
